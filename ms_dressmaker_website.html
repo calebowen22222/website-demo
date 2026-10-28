@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MS Dressmaker | Alterations & Custom Dresses</title>
+  <meta name="description" content="MS Dressmaker in Overport, Durban. Alterations, custom dresses, matric and prom dresses, traditional wear and repairs.">
+  <style>
+    :root { --cream:#f8f4ec; --ink:#201d1a; --gold:#a78345; --muted:#6d665d; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--cream); }
+    header { padding:22px 7%; display:flex; justify-content:space-between; align-items:center; gap:18px; border-bottom:1px solid #e7dece; }
+    .brand { font-size:1.35rem; letter-spacing:.12em; font-weight:bold; }
+    .brand span { display:block; color:var(--gold); font: .65rem Arial,sans-serif; letter-spacing:.25em; margin-top:5px; }
+    nav a { color:var(--ink); text-decoration:none; margin-left:20px; font: .9rem Arial,sans-serif; }
+    .hero { min-height:430px; padding:75px 7%; display:grid; grid-template-columns:1.2fr .8fr; align-items:center; gap:35px; }
+    .eyebrow { color:var(--gold); font: .78rem Arial,sans-serif; letter-spacing:.2em; text-transform:uppercase; }
+    h1 { font-size:clamp(2.6rem,6vw,5rem); line-height:1.04; font-weight:normal; margin:18px 0; }
+    h1 em { color:var(--gold); }
+    .hero p { max-width:520px; color:var(--muted); font:1.05rem/1.8 Arial,sans-serif; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-block; padding:14px 20px; background:var(--ink); color:white; text-decoration:none; font: .9rem Arial,sans-serif; }
+    .btn.secondary { background:transparent; border:1px solid var(--gold); color:var(--ink); }
+    .visual { min-height:300px; background:linear-gradient(145deg,#e7d8c1,#c4a777); display:flex; align-items:center; justify-content:center; padding:30px; text-align:center; }
+    .visual-inner { border:1px solid rgba(255,255,255,.8); padding:35px 20px; width:100%; color:#fff; }
+    .visual-inner strong { display:block; font-size:2rem; font-weight:normal; }
+    .visual-inner small { display:block; margin-top:12px; font: .8rem Arial,sans-serif; letter-spacing:.15em; }
+    section { padding:65px 7%; }
+    .section-title { text-align:center; font-size:2.4rem; font-weight:normal; margin:0 0 14px; }
+    .intro { text-align:center; color:var(--muted); font:1rem/1.7 Arial,sans-serif; max-width:650px; margin:0 auto 35px; }
+    .services { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .service { background:#fffdf8; border:1px solid #e9e0d2; padding:25px; }
+    .service h3 { font-size:1.25rem; font-weight:normal; margin:0 0 10px; }
+    .service p { color:var(--muted); font: .93rem/1.7 Arial,sans-serif; margin:0; }
+    .contact { background:#eee5d7; text-align:center; }
+    .contact p { font:1rem/1.8 Arial,sans-serif; color:var(--muted); }
+    footer { padding:22px 7%; text-align:center; font: .82rem Arial,sans-serif; color:var(--muted); }
+    @media (max-width:700px) {
+      header { align-items:flex-start; flex-direction:column; }
+      nav a { margin:0 14px 0 0; }
+      .hero { grid-template-columns:1fr; padding-top:48px; }
+      .visual { min-height:220px; }
+      .services { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">MS DRESSMAKER<span>ALTERATIONS · DESIGN · FITTING</span></div>
+    <nav><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Made to fit you</div>
+        <h1>Every detail.<br><em>Perfectly tailored.</em></h1>
+        <p>From quick alterations to custom-made occasion wear, we help you look and feel your best. Quality workmanship, personal advice and attention to detail.</p>
+        <div class="buttons">
+          <a class="btn" href="tel:+27622038206">Call 062 203 8206</a>
+          <a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=80+Booth+Ave%2C+Overport%2C+Durban%2C+4009" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+      </div>
+      <div class="visual"><div class="visual-inner"><strong>Made with care</strong><small>YOUR STYLE · YOUR FIT</small></div></div>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">Our Services</h2>
+      <p class="intro">Beautiful fit, careful finishing and practical advice for everyday clothing and special occasions.</p>
+      <div class="services">
+        <article class="service"><h3>Alterations & Repairs</h3><p>Hems, adjustments and clothing repairs. Ask us about alterations that can be done while you wait.</p></article>
+        <article class="service"><h3>Custom Dresses</h3><p>Personalised dresses designed around your style, measurements and occasion.</p></article>
+        <article class="service"><h3>Special Occasion Wear</h3><p>Matric and prom dresses, lehengas, traditional outfits and wedding wear.</p></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Visit MS Dressmaker</h2>
+      <p><strong>80 Booth Avenue, Overport, Durban, 4009</strong><br>Opposite Caminetos Pizza</p>
+      <p>Call us to discuss your fitting or alteration.</p>
+      <div class="buttons" style="justify-content:center">
+        <a class="btn" href="tel:+27622038206">Call 062 203 8206</a>
+        <a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=80+Booth+Ave%2C+Overport%2C+Durban%2C+4009" target="_blank" rel="noopener">Open in Maps</a>
+      </div>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> MS Dressmaker · Overport, Durban</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
